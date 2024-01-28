@@ -2,26 +2,16 @@
 
 # ITWS1100 - Lab 2
 
-In this lab you are going to build a resume.  The main instructions are in [ITWS1100-Lab2-HTML-Instructions.html](ITWS1100-Lab2-HTML-Instructions.html).
+## Observations
+I primarily based this resume off of my existing resume, which is why it doesn't fully resemble the template. Nevertheless, I focused on including the main skeleton of it as instructed
 
-## We are going to setup out lab in our local repository
+1. The first block is the mission statement and my version of the profile section
+2. The education section includes details on my degree and relevant courseworl
+3. The Work experience section is similar to the Experience section and includes information on my relevant experience 
+4. Honors is an extra section that details any awards I have recieved
+5. Skills/interests is similar to the profile block in the example resume, providing more info on my capabilities and personality
 
-1. In Lab 1 you cloned your GitHub repository to your local machine. You should have named this folder iit, or used the name of your repository.  (I will refer to this folder as iit)
-You can open the appropriate folder by clicking the link in GitHub Desktop for Finder/Explorer.
-2. In the iit folder on your local machine, create a new folder called labs
-3. In your new iit/labs folder create another new folder named lab01
-4. Download the zip file for the lab02 assignment to your downloads (or other folder) and unzip it into that lab02 folder. (NO NOT put the zip file inside your iit folder.)
-5. You are now ready to start working on the lab. GO back to GitHub Desktop, and select 'Open in VS Code'.
-
-## While you are 
-
-1. Notice that as you make chages to any files/folders in your iit folder, GitHub Desktop shows them to you on the left panel.
-
-2. To test your code locally, install the Live Preview plugin from Microsoft (ms-vscode.live-server)
-
-3. once you are comfortable with your changes, you can commmite them to you local repository using GutHub Desktop, and push them to your repositoryon GitHub.
-
-4. To deploy your code to your Web Server;
-5. start your Azure instances
-6. pull your changes down to your web servers
-7. Test your resume in FQDN/iit/labs/lab02 
+## Comments
+While this resume is up to date, due to time constraints, I wasn't able to add two sections, though I hope to add them in the future
+1. Projects. I would like to add a section under "Work Experiences" that shows the different projects I have worked on thusfar
+2. Leadership. This would hold any leading roles I have or had in extracurriculars
