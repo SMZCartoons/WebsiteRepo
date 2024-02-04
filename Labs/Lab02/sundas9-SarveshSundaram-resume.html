@@ -7,14 +7,24 @@
 
 
    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Single+Day&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@700&display=swap');
+
       html {
          width: 100%;
       }
 
       body {
-         width: 95%;
-         font-family: Arial, Helvetica, sans-serif;
+         font-family: 'Indie Flower';
          overflow: auto;
+         display: flex;
+         flex-direction: column;
+         min-height: 104.5vh;
+         margin: -50px 0px 0px 0px;
+         background: linear-gradient(60deg, #dacece 8%, #deddbc 67%, #d0d8aa8a 0%);
+         background-repeat: no-repeat; 
+         background-attachment: fixed; 
+         background-size: 100% 100%;
       }
 
       h1 {
@@ -22,7 +32,6 @@
          margin: 20px 0px 0 0px;
          padding: 0;
          font-variant: small-caps;
-         font-family: "EB Garamond";
       }
 
       h2 {
@@ -30,7 +39,6 @@
          margin: 20px 10px 0 53.76px;
          padding: 0;
          font-size: 1.2em;
-         font-family: "EB Garamond";
       }
 
       .leader {
@@ -51,7 +59,6 @@
          list-style: none;
          margin: 0 0.25em 0 0.25em;
          font-size: 15px;
-         font-family: "EB Garamond";
       }
 
       #nameWrapper {
@@ -73,14 +80,12 @@
       #description {
          margin: 8px 0px 0px 53.76px;
          font-size: 15px;
-         font-family: "EB Garamond";
       }
 
       /*Used for lines where title of role or degree is given*/
       .describeEducation {
          margin: 4px 0px 0px 53.76px;
          font-size: 14px;
-         font-family: "EB Garamond";
       }
 
 
@@ -89,21 +94,18 @@
          list-style: none;
          margin: 120px 0px 0px 30px;
          font-size: 15px;
-         font-family: "EB Garamond";
       }
 
       /*Used for when courses are displayed*/
-      #showCourses{
+      .showCourses{
          margin: 0px 10px 0px 53.76px;
          font-size: 14px;
-         font-family: "EB Garamond";
       }
 
       /*Used for describing what was done in specific roles*/
       .describeCourses{
          margin: 0px 10px 0px 31px;
          font-size: 14px;
-         font-family: "EB Garamond";
       }
 
       /*used for elements floating to left*/
@@ -111,14 +113,12 @@
          float: left;
          font-size: 15px;
          margin: 4px 0px 0px 53.76px;
-         font-family: "EB Garamond";
       }
        
       /*used for elements floating to the right*/
       span.next {
          float: right;
          font-size: 15px;
-         font-family: "EB Garamond";
          margin: 8px 11px 0px 0px;
       }
 
@@ -128,14 +128,12 @@
          
          margin: 0px 0px 0px 53.76px;
          font-size: 15px;
-         font-family: "EB Garamond";
       }
        
       /*Used for floating object (that float right) below another floating object*/
       span.nextBottom {
          float: right;
          font-size: 15px;
-         font-family: "EB Garamond";
          margin: 0px 11px 0px 0px;
       }
 
@@ -150,7 +148,6 @@
       .SkillsList li {
          list-style: none;
          font-size: 15px;
-         font-family: "EB Garamond";
 
       }
 
@@ -165,15 +162,116 @@
       #InterestList li {
          list-style: none;
          font-size: 15px;
-         font-family: "EB Garamond";
          margin: 7px 0px 0px 0px;
       }
 
+            
+      .Logo a{
+         float: right;
+         color: #000000;
+         
+         /* margin:  0px 0px 0px; */
+         padding: 25px;
+         text-decoration: none;
+         font-size: 25px;
+         
+      }
+
+
+      .Logo a:hover {
+         background-color: #7b7b7b;
+         color: black;
+      }
+
+
+      .Logo a.active {
+         background-color: #04AA6D;
+         /* width: 100%; */
+         color: white;
+      }
+      
+
+      .Logo{
+         height: 130px;
+         /* text-align: center; */
+         flex: 0 1 auto;
+         width: 100%;
+         
+         font-family: 'Kalam';
+         /* background-color: #48494a; */
+      }
+
+      .Logo p{
+         color: #433d3d;
+         font-size:50px;
+      }
+
+
+
+      #logoImage{
+          margin: 10px 0px 0px 40px;
+          width:450px;
+          height:50px;
+          float: left;
+      }
+
+
+      
+      footer{
+         margin-top: auto;
+         /* background-color: #7d7d7d; */
+         overflow: hidden;
+         
+         font-family: 'Single Day';
+         
+      }
+      #contactInfo2 {
+         /* float: right; */
+         padding: 20px 0px 10px 20px;
+         margin: 0px 10px 0px 0px;
+         text-align: center;
+         white-space: nowrap;
+         font-size: 15px;
+         list-style-type: none;
+      }
+
+      
+      .maincontents {
+         min-height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: stretch;
+      }
+      
+      .maincontents ::after {
+         margin: 50px;
+         
+      }
+      
+      .footer ::before {
+         margin: 50px;
+      }
+      
+      .footer {
+         flex: 0;
+      }
+
+
    </style>
+   
+   <!-- <link rel="stylesheet" href="../../Resources/indexStyles.css"> -->
 </head>
 
 
 <body>
+   <div class="Logo">
+      <p>
+          <img src="../../Resources/Text.png" alt="sarvesh sundaram" id="logoImage">
+      </p>
+      <a href="../../Labs/Projects.html" class="active">Projects </a>
+      <!-- <a href="./AboutMe/aboutMe.html">About Me</a> -->
+      <a href="../../index.html">Home</a>
+  </div>
    <!-- Header with Name -->
    <h1>Sarvesh Sundaram</h1>
 
@@ -201,9 +299,9 @@
    <div>
       <h2>EDUCATION</h2>
       <span class="previous"><b>RENSSELAER POLYTECHNIC INSTITUTE (RPI)</b></span>
-      <span class="next"><b>Expected May 2025</b></span>
+      <span class="next"><b>Expected May 2025 </b></span><br>
 
-      <p class="describeEducation">B.S. Computer Science (Concentration in Systems and Software) - GPA 3.88/4.00</p>
+      <p class="describeEducation"> B.S. Computer Science (Concentration in Systems and Software) - GPA 3.88/4.00</p>
       <p class="showCourses">Relevant Coursework: <i>Discrete Math, Intro to Algorithms, Principals of Software, Programming Languages, Operating Systems, Computational Vision, Intro to Information Technology and Web Science, Multivariable Calculus, Differential Equations, Linear Algebra, Probability</i></p>
    </div>
 
@@ -215,9 +313,11 @@
       <!-- Information on Work at The Cigna Group-->
       <h2>WORK EXPERIENCE</h2> 
       <span class="previous"><b>The Cigna Group (Bloomfield CT)</b></span>
-      <span class="next"><b>May 2023-Present</b></span>
+      <span class="next"><b>May 2023-Present</b></span><br>
 
-      <p class="describeEducation"><i>AI Software Engineer Intern</i></p>
+      <p class="describeEducation">
+         <i>AI Software Engineer Intern</i>
+      </p>
       <ul class="describeCourses">
          <li> Automating data population of vector databases and training AI model to improve operating efficiency</li>
          <li>Researched vector database vendor offerings and presented comparative analysis. This has been used in the vendor selection process </li>
@@ -234,7 +334,7 @@
 
       <!-- Information on Research Position at CogWorks Lab -->
       <span class="previous"><b>Cogworks Lab (Troy NY)</b></span>
-      <span class="next"><b>October 2021-May 2023</b></span>
+      <span class="next"><b>October 2021-May 2023</b></span><br>
 
       <p class="describeEducation"><i>Undergraduate Research Assistant</i></p>
       <ul class="describeCourses">
@@ -273,6 +373,25 @@
          <li id="test"><b>Interests:</b> Digital Art, Animation, 3D Modeling, Hiking, Skiing, Community Service</li>
       </ul>
    </div>
+
+   
+   <footer>
+      <div class="maincontents">
+      </div>
+
+      <div class="footer">
+         <ul id="contactInfo2">
+            <li><b>Tel:</b> [C] 203-609-5517</li>
+            <li><b>Email:</b> sarvesh.sundaram20@gmail.com</li>
+            <li><b>Linkedin:</b> <a href="https://www.linkedin.com/in/sarvesh-sundaram-85137621a/">https://www.linkedin.com/in/sarvesh-sundaram-85137621a/</a></li>
+         </ul>
+
+
+      </div>
+   </footer>
+
 </body>
+
+
 
 </html>
