@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Single+Day&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Assistant:wght@500&display=swap');
 
 
 #body1{
@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background: linear-gradient(20deg, #ffffff 8%, #c2dcb4 67%, #488f408a 0%);
+    background: linear-gradient(20deg, #ffffff 0%, #c2dcb4 67%, #A9D2B4 0%);
     /* background-image: url('./'); */
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     height: 110%;
-    background: linear-gradient(-50deg, #ad9090 8%, #406bcebd 67%, #2d5bc0bd 0%);
+    background: linear-gradient(-50deg, #b5bfc7 8%, #406bcebd 67%, #2d5bc0bd 0%);
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -43,6 +43,19 @@
     background-size: 100% 100%;
 }
 
+#body4{
+    margin: 0;
+    font-family: Gara;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    height: 110%;
+    background: linear-gradient(130deg, #ddcbbc 1%, #fdc7bc 40%, #fcd5ce 30%);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
 a {
     text-decoration: none;
 }
@@ -55,14 +68,14 @@ a {
 
 h1{
     
-    font-family: 'Single Day';
+    font-family: 'Assistant';
     text-align: center;
     font-size: 90px;
 }
 
 h2{
     text-align: center;
-    font-family: 'Single Day';
+    font-family: 'Assistant';
     font-size: 30px;
 }
 
@@ -78,7 +91,7 @@ h2{
 }
 
 p{
-    font-family: 'Indie Flower';
+    font-family: 'Assistant';
 }
 .Logo a:hover {
     background-color: #476246;
@@ -94,12 +107,12 @@ p{
   
 
 .Logo{
-    height: 80px;
+    height: px;
     /* text-align: center; */
     flex: 0 1 auto;
     width: 100%;
     /* background-color: rgba(0, 0, 0, 0.359) */
-    /* background-color: #48494a; */
+     background-color: #48494a40; 
     font-family: 'Kalam';
 }
 
@@ -112,7 +125,7 @@ p{
 
 #logoImage{
     margin: 10px 0px 0px 40px;
-    width:450px;
+    width: 450px;
     height:50px;
     float: left;
 }
@@ -123,8 +136,8 @@ p{
     height:40px;
 }
 #Headshot{
-    width:550px;
-    height:410px;
+    width:430px;
+    height:310px;
     margin-top: 30px;
     display: block;
     margin-left: auto;
@@ -163,8 +176,12 @@ footer{
     bottom: 0;
     width: 100%;
     left: 0; */
-    font-family: 'Single Day';
+    
+    font-family: 'Assistant';
     margin-top: auto;
+         /* background-color: #7d7d7d; */
+    overflow: hidden;
+    /* background-color: rgba(0, 0, 0, 0.359) */
     
 }
 
@@ -189,10 +206,10 @@ footer{
     /* text-align: center; */
     font-size:80px;
     
-    font-family: 'Single Day';
+    font-family: 'Archivo Black';
 }
 #blurb{
-    margin: 0px 40px 0px 40px;
+    margin: 0px 100px 0px 100px;
     /* text-align: center; */
     float: right;
     font-size: 21px;
