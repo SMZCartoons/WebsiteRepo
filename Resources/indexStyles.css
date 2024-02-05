@@ -1,8 +1,6 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Assistant:wght@500&display=swap');
 
-
+/* Background layout for the home page */
 #body1{
     margin: 0;
     font-family: Gara;
@@ -11,12 +9,12 @@
     flex-direction: column;
     height: 100%;
     background: linear-gradient(20deg, #ffffff 0%, #c2dcb4 67%, #A9D2B4 0%);
-    /* background-image: url('./'); */
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: 100% 100%;
 }
 
+/* Background layout of the projects page */
 #body2{
     margin: 0;
     font-family: Gara;
@@ -30,6 +28,7 @@
     background-size: 100% 100%;
 }
 
+/* Background layout of Devops lab page */
 #body3{
     margin: 0;
     font-family: Gara;
@@ -43,6 +42,7 @@
     background-size: 100% 100%;
 }
 
+/* Background layout of resume lab page*/
 #body4{
     margin: 0;
     font-family: Gara;
@@ -56,73 +56,75 @@
     background-size: 100% 100%;
 }
 
+/* Style for hyperlink tags */
 a {
     text-decoration: none;
+    font-family: "Assistant";
 }
 
+/* sets margins for text in lab1 text */
 .lab1Margins{
     margin: 0px 110px 0px 110px;
-    
     font-size: 25px;
 }
 
+/* header 1 styles */
 h1{
     
-    font-family: 'Assistant';
+    font-family: 'Archivo Black';
     text-align: center;
     font-size: 90px;
 }
 
+/* header 2 styles */
 h2{
     text-align: center;
     font-family: 'Assistant';
     font-size: 30px;
 }
 
+/* Style for hyperlinks in menu bar */
 .Logo a{
     float: right;
     color: #3d3c3c;
-    
-    /* margin:  0px 0px 0px; */
     padding: 25px;
     text-decoration: none;
     font-size: 25px;
     
 }
 
+/* styles for paragraphs */
 p{
     font-family: 'Assistant';
 }
+
+/* enables change in color when mouse hovers over menu buttons */
 .Logo a:hover {
     background-color: #476246;
     color: black;
 }
 
-
+/* identifies current page person is on in the menu */
 .Logo a.active {
     background-color: #04AA6D;
-    /* width: 100%; */
     color: white;
-  }
-  
+}
 
+/* main style for the menu */
 .Logo{
-    height: px;
-    /* text-align: center; */
     flex: 0 1 auto;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.359) */
      background-color: #48494a40; 
     font-family: 'Kalam';
 }
 
+/* main style of the paragraph tags in menu */
 .Logo p{
     color: #433d3d;
     font-size:50px;
 }
 
-
-
+/* image that displays name in menu */
 #logoImage{
     margin: 10px 0px 0px 40px;
     width: 450px;
@@ -130,11 +132,14 @@ p{
     float: left;
 }
 
+
 #aboutMeImg{
     float: left;
     width:150px;
     height:40px;
 }
+
+/* style/size for headshot on home page */
 #Headshot{
     width:430px;
     height:310px;
@@ -143,17 +148,15 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* buttons on projects page that lead to labs */
 .labs{
-    /* float: left; */
     width:300px;
     height:210px;
-    /* float: left; */
-    /* width: 33.33%; */
-    transition: transform .2s;
-    /* padding: 5px; */
-    
+    transition: transform .2s; 
 }
 
+/* Style for Images in lab 1 */
 .lab1Image{
     
     width:800px;
@@ -164,29 +167,20 @@ p{
     margin-right: auto;
 }
 
+/* enables images in projects page to change size when mouse hovers over them */
 .labs:hover{
     transform:scale(1.1);
-    
-    /* padding: 10px; */
 }
 
+/* style for footer */
 footer{
-    /* padding: 50px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0; */
-    
     font-family: 'Assistant';
     margin-top: auto;
-         /* background-color: #7d7d7d; */
-    overflow: hidden;
-    /* background-color: rgba(0, 0, 0, 0.359) */
-    
+    overflow: hidden; 
 }
 
+/* text in header/contact info styles */
 #contactInfo {
-    /* float: right; */
     padding: 20px 0px 10px 20px;
     margin: 0px 10px 0px 0px;
     text-align: center;
@@ -195,23 +189,22 @@ footer{
     list-style-type: none;
 }
 
+/* image caption style in lab1 */
 .caption{
     margin: 5px 0px 70px 0px;
     text-align: center;
     font-size: 25px;
 }
 
+/* home page blurb tutle style */
 #blurbTitle{
-    /* margin: 10px 10px 0px 0px; */
-    /* text-align: center; */
     font-size:80px;
-    
     font-family: 'Archivo Black';
 }
+
+/* main blurb in main page style */
 #blurb{
     margin: 0px 100px 0px 100px;
-    /* text-align: center; */
     float: right;
     font-size: 21px;
 }
-
