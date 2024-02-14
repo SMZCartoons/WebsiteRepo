@@ -56,6 +56,19 @@
     background-size: 100% 100%;
 }
 
+#body5{
+    margin: 0;
+    font-family: Gara;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    height: 110%;
+    background: linear-gradient(130deg, #b9e7d2 1%, #84bd89 40%, #8dc899 30%);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
 /* Style for hyperlink tags */
 a {
     text-decoration: none;
@@ -156,6 +169,21 @@ p{
     transition: transform .2s; 
 }
 
+.proj4{
+    width:500px;
+    height:350px;
+    transition: transform .2s; 
+    margin: 0px -100% 0px 0px;
+    float: left;
+}
+
+.proj4_r{
+    width:500px;
+    height:350px;
+    transition: transform .2s; 
+    float: right;
+}
+
 /* Style for Images in lab 1 */
 .lab1Image{
     
@@ -169,6 +197,14 @@ p{
 
 /* enables images in projects page to change size when mouse hovers over them */
 .labs:hover{
+    transform:scale(1.1);
+}
+
+.proj4:hover{
+    transform:scale(1.1);
+}
+
+.proj4_r:hover{
     transform:scale(1.1);
 }
 

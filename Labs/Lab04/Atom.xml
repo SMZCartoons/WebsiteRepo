@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Example Feed</title>
+	<subtitle>A subtitle.</subtitle>
+	<link href="http://sundas9rpi.eastus.cloudapp.azure.com/iit/Labs/Lab04/Atom.xml" rel="self" />
+	<link href="https://www.nytimes.com/section/movies" />
+	<id>https://www.nytimes.com/</id>
+	<updated>2024-02-14T13:08:09Z</updated>
+	<author>
+		<name>Sarvesh Sundaram</name>
+		<email>sundas9@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>Oscar Nominees Luncheon 2024: Best Looks and the ‘Anatomy of a Fall’ Dog</title>
+		<link href="https://www.nytimes.com/2024/02/12/movies/oscar-nominees-luncheon-red-carpet.html" />
+		<id>https://www.nytimes.com/2024/02/12/movies/oscar-nominees-luncheon-red-carpet.html/string1</id>
+		<updated>2024-02-13T18:56:24Z</updated>
+		<summary>In a ballroom full of A-listers in Beverly Hills, the Border collie from “Anatomy of a Fall” had the stars lining up to meet him.</summary>
+	</entry>
+
+	<entry>
+		<title>These Grandmas Are Going to the Oscars</title>
+		<link href="https://www.nytimes.com/2024/02/13/movies/nai-nai-wa-po-oscars-short.html" />
+		<id>https://www.nytimes.com/2024/02/13/movies/nai-nai-wa-po-oscars-short.html/string2</id>
+		<updated>2024-02-13T17:00:06Z</updated>
+		<summary>In the documentary short “Nǎi Nai and Wài Pó,” Sean Wang chronicles the inner lives of his grandmothers. Now, the film is nominated for an Academy Award.</summary>
+	</entry>
+
+	<entry>
+		<title>Jeffrey Wright on ‘American Fiction’</title>
+		<link href="https://www.nytimes.com/2024/02/13/movies/jeffrey-wright-american-fiction.html" />
+		<id>https://www.nytimes.com/2024/02/13/movies/jeffrey-wright-american-fiction.html/string3</id>
+		<updated>2024-02-13T15:18:09Z</updated>
+		<summary>The veteran has played everything from an artist to a general to a professor, the role in “American Fiction” that finally landed him an Oscar nomination.</summary>
+	</entry>
+
+	<entry>
+		<title>Robert Downey Jr. and Christopher Nolan on ‘Oppenheimer.’</title>
+		<link href="https://www.nytimes.com/2024/02/11/movies/robert-downey-jr-christopher-nolan-oppenheimer.html" />
+		<id>https://www.nytimes.com/2024/02/11/movies/robert-downey-jr-christopher-nolan-oppenheimer.html/string4</id>
+		<updated>2024-02-11T14:29:37Z</updated>
+		<summary>These Oscar nominees for “Oppenheimer” met years ago, but the director had no plans to cast this star then, noting, “I was also a little afraid of you.”</summary>
+	</entry>
+
+	<entry>
+		<title>Harmony Korine’s ‘Aggro Dr1ft’ Makes Los Angeles Debut</title>
+		<link href="https://www.nytimes.com/2024/02/09/style/harmony-korine-aggro-dr1ft.html" />
+		<id>https://www.nytimes.com/2024/02/09/style/harmony-korine-aggro-dr1ft.html/string5</id>
+		<updated>2024-02-09T19:30:23Z</updated>
+		<summary>These Oscar nominees for “Oppenheimer” met years ago, but the director had no plans to cast this star then, noting, “I was also a little afraid of you.”</summary>
+	</entry>
+ 
+</feed>
