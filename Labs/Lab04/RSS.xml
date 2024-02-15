@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-	
-	<title>Movies News</title>
-	<description>Learn more about Upcoming movies</description>
-	
+	<title>Sarvesh News</title>
+	<description>Learn more about the most recent news!</description>
 	<atom:link href="http://sundas9rpi.eastus.cloudapp.azure.com/iit/Labs/Lab04/RSS.xml" rel="self"/>
-	<link>https://www.nytimes.com/section/movies</link>
+	<link>http://sundas9rpi.eastus.cloudapp.azure.com</link>
 	<lastBuildDate>Wed, 14 Feb 2024 17:45:54 +0000 </lastBuildDate>
 	<pubDate>Wed, 14 Feb 2024 16:02:29 +0000</pubDate>
  
+
 	<item>
 		<title>Oscar Nominees Luncheon 2024: Best Looks and the ‘Anatomy of a Fall’ Dog</title>
 		<description>In a ballroom full of A-listers in Beverly Hills, the Border collie from “Anatomy of a Fall” had the stars lining up to meet him.</description>
@@ -19,35 +18,35 @@
 	</item>
 
 	<item>
-		<title>These Grandmas Are Going to the Oscars</title>
-		<description>In the documentary short “Nǎi Nai and Wài Pó,” Sean Wang chronicles the inner lives of his grandmothers. Now, the film is nominated for an Academy Award.</description>
-		<link>https://www.nytimes.com/2024/02/13/movies/nai-nai-wa-po-oscars-short.html</link>
-		<guid>https://www.nytimes.com/2024/02/13/movies/nai-nai-wa-po-oscars-short.html/string2</guid>
-	  <pubDate>Tue, 13 Feb 2024 17:00:06 +0000</pubDate>
+		<title>Assistant Secretary for International Narcotics and Law Enforcement Affairs Robinson Travels to Peru and Ecuador</title>
+		<description>Office of the Spokesperson</description>
+		<link>https://www.state.gov/assistant-secretary-for-international-narcotics-and-law-enforcement-affairs-robinson-travels-to-peru-and-ecuador/</link>
+		<guid>https://www.state.gov/assistant-secretary-for-international-narcotics-and-law-enforcement-affairs-robinson-travels-to-peru-and-ecuador/string2</guid>
+	  <pubDate>Mon, 05 Feb 2024 19:59:29 +0000</pubDate>
 	</item>
 
 	<item>
-		<title>Jeffrey Wright on ‘American Fiction’</title>
-		<description>The veteran has played everything from an artist to a general to a professor, the role in “American Fiction” that finally landed him an Oscar nomination.</description>
-		<link>https://www.nytimes.com/2024/02/13/movies/jeffrey-wright-american-fiction.html</link>
-		<guid>https://www.nytimes.com/2024/02/13/movies/jeffrey-wright-american-fiction.html/string3</guid>
-	  <pubDate>Tue, 13 Feb 2024 15:18:09 +0000</pubDate>
+		<title>Danielle Pinnock gives inside scoop on new season of “Ghosts”</title>
+		<description>Tonight on CBS, the eagerly awaited third season of "Ghosts" debuts, featuring Danielle Pinnock as the ghost of 1920s jazz singer Alberta Haynes. She joins “CBS Mornings” for a sneak peek into what this new season holds.</description>
+		<link>https://www.cbsnews.com/video/danielle-pinnock-gives-inside-scoop-on-new-season-of-ghosts/</link>
+		<guid>https://www.cbsnews.com/video/danielle-pinnock-gives-inside-scoop-on-new-season-of-ghosts//string3</guid>
+	  <pubDate>Thu, 15 Feb 2024 10:42:30 -0500</pubDate>
 	</item>
 
 	<item>
-		<title>Robert Downey Jr. and Christopher Nolan on ‘Oppenheimer.’</title>
-		<description>These Oscar nominees for “Oppenheimer” met years ago, but the director had no plans to cast this star then, noting, “I was also a little afraid of you.”</description>
-		<link>https://www.nytimes.com/2024/02/11/movies/robert-downey-jr-christopher-nolan-oppenheimer.html</link>
-		<guid>https://www.nytimes.com/2024/02/11/movies/robert-downey-jr-christopher-nolan-oppenheimer.html/string4</guid>
-	  <pubDate>Sun, 11 Feb 2024 14:29:37 +0000</pubDate>
+		<title>Fani Willis Faces the Judge</title>
+		<description>The Georgia Trump prosecutor could be dismissed from the case</description>
+		<link>https://www.wsj.com/articles/fani-willis-nathan-wade-mike-roman-fulton-county-georgia-donald-trump-prosecution-2a3d6cb7</link>
+		<guid>https://www.wsj.com/articles/fani-willis-nathan-wade-mike-roman-fulton-county-georgia-donald-trump-prosecution-2a3d6cb7string4</guid>
+	  <pubDate>Wed, 14 Feb 2024 18:47:00 -0500</pubDate>
 	</item>
 
 	<item>
-		<title>Harmony Korine’s ‘Aggro Dr1ft’ Makes Los Angeles Debut</title>
-		<description>Critics panned “Aggro Dr1ft,” but the film found its intended audience in a surreal experience at a Los Angeles strip club.</description>
-		<link>https://www.nytimes.com/2024/02/09/style/harmony-korine-aggro-dr1ft.html</link>
-		<guid>https://www.nytimes.com/2024/02/09/style/harmony-korine-aggro-dr1ft.html/string5</guid>
-	  <pubDate>Fri, 09 Feb 2024 19:30:23 +0000</pubDate>
+		<title>Guterres appoints independent UNRWA review panel</title>
+		<description>UN Secretary-General António Guterres on Monday appointed an independent panel to conduct an assessment of the UN agency that assists Palestine refugees, UNRWA, following accusations that several staff were involved in the 7 October attacks against Israel. </description>
+		<link>https://news.un.org/feed/view/en/story/2024/02/1146207</link>
+		<guid>https://news.un.org/feed/view/en/story/2024/02/1146207/string5</guid>
+	  <pubDate>Mon, 05 Feb 2024 12:00:00 +0000</pubDate>
 	</item>
  
 </channel>
