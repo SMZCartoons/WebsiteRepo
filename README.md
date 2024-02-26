@@ -4,31 +4,10 @@ Working URL: http://sundas9rpi.eastus.cloudapp.azure.com/iit/
 
 Username: Password
 
-sundas9:$apr1$1k8j9gZT$D5P.BLNQ7td8qNsWt8BXj.
-rplotka:$apr1$wkpQqW8U$19tK9MPTxeZko2M1BBwgV/
-kcs:$apr1$s.kb.fog$vzzinpnh.NcZP.QyfeAa4/
+sundas9:Titaniumdragon_1
 
 --------------------------------------------------------------------
 
-Comments About Lab and Defense of Styles:
+In this lab, I primarily followed the instructions to the T, so that the primary features of this lab is that I fixed the "crimes" in the code, forced the user to need to enter something into each input to submit, added the nickname button to print out the first name, last name, and nickname when prompted, and made it so the please enter your comments would disappear and reappear depending on if the user clicked on the comments box or not.
 
-The main idea behind the lab was an artbook style, with more colorful abstract backgrounds and aspects of the font like the title in the menu and the scribbles around the headshot in the main page look like someone's art portfilio, as I have a passion for art and animation, and wanted to blend that interest into the website
-
-The main font used, however, steers away from that to maintain a sense of professionalism, as this is still a website aimed for recruiters/potential employers
-
-The menu is primary translucent so that it can blend well with the background without ending up obscuring anything or seeming out of place
-
-In the projects page, I aimed for icons that increase in size when you hover over them in order to make a visually appealing way to view all the labs and see that there are more labs/work to come
-
-Lab 1 page is meant to incorporate the mainly terminal-based prompt into the website and demonstrate my intorduction to devops and how far we have gone into work with Azure currently
-
-The Lab 2 page is updated with proper heading and footing and with a similar background color scheme so it doesn't seem out of place with everything else
-
-
-------------------------------------------------------------------
-
-Future Steps
-
-I hope to incorporate an "experiences" page that takes the resume and makes it in a more website-friendly more visually appealing manner
-
-I also intent to make the backgrounds more complex in coloring so they better reflect creativity and my passion for art
+I also added an extra feature where once a user tries to submit an incomplete form, it focuses on the first incomplete input area.
