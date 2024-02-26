@@ -2,9 +2,9 @@
 
 Working URL: http://sundas9rpi.eastus.cloudapp.azure.com/iit/
 
-Username: Password
 
-sundas9:Titaniumdragon_1
+Username: sundas9
+Password: Sarvesh_2003
 
 --------------------------------------------------------------------
 
