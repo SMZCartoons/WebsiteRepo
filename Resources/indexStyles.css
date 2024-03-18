@@ -184,6 +184,20 @@ p{
     float: right;
 }
 
+.proj5{
+    width:500px;
+    height:350px;
+    transition: transform .2s; 
+    margin: 0px 0px 0px 25%;
+    float: left;
+}
+
+.proj5_r{
+    width:500px;
+    height:350px;
+    transition: transform .2s; 
+    float: right;
+}
 /* Style for Images in lab 1 */
 .lab1Image{
     
@@ -207,6 +221,15 @@ p{
 .proj4_r:hover{
     transform:scale(1.1);
 }
+
+.proj5:hover{
+    transform:scale(1.1);
+}
+
+.proj5_r:hover{
+    transform:scale(1.1);
+}
+
 
 /* style for footer */
 footer{
