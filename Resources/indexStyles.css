@@ -163,10 +163,111 @@ p{
 }
 
 /* buttons on projects page that lead to labs */
-.labs{
+.lab1{
     width:300px;
     height:210px;
     transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.lab1:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.lab2{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.lab2:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.lab4{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.lab4:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.lab5{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.lab5:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.lab6{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.lab6:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.tba1{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.tba1:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.tba2{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.tba2:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.tba3{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.tba3:hover{
+    transform:scale(1.1);
+}
+
+/* buttons on projects page that lead to labs */
+.tba4{
+    width:300px;
+    height:210px;
+    transition: transform .2s; 
+}
+
+/* enables images in projects page to change size when mouse hovers over them */
+.tba4:hover{
+    transform:scale(1.1);
 }
 
 .proj4{
@@ -209,10 +310,7 @@ p{
     margin-right: auto;
 }
 
-/* enables images in projects page to change size when mouse hovers over them */
-.labs:hover{
-    transform:scale(1.1);
-}
+
 
 .proj4:hover{
     transform:scale(1.1);
@@ -266,4 +364,17 @@ footer{
     margin: 0px 100px 0px 100px;
     float: right;
     font-size: 21px;
+}
+
+#jsonHere {
+    display: none;
+}
+
+
+#projectHead {
+    display: none;
+}
+
+#projFoot {
+    display: none;
 }
