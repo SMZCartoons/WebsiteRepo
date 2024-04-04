@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Assistant:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* Background layout for the home page */
 #body1{
     margin: 0;
@@ -377,4 +377,37 @@ footer{
 
 #projFoot {
     display: none;
+}
+
+.ArticleHead {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inconsolata";
+    margin: 0px 50px 0px 50px;
+}
+
+.SubHead {
+    font-size: 13px;
+    font-family: "Inconsolata";
+    margin: 5px 0px 30px 0px;
+}
+
+.Summary {
+    font-size: 15px;
+    font-family: "Inconsolata";
+    
+    margin: 0px 10px 10px 10px;
+}
+
+.entry {
+    background: rgba(61, 80, 90, 0.552);
+    margin: 60px 100px 60px 100px;
+    height: auto;
+    text-align: center;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.entry:hover{
+    transform:scale(1.1);
 }
