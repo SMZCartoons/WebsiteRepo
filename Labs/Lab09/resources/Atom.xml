@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Sarvesh News</title>
+	<subtitle>Learn more about the most recent news!</subtitle>
+	<link href="http://sundas9rpi.eastus.cloudapp.azure.com/iit/Labs/Lab04/Atom.xml" rel="self" />
+	<link href="hhttp://sundas9rpi.eastus.cloudapp.azure.com" />
+	<id>hhttp://sundas9rpi.eastus.cloudapp.azure.com/myID</id>
+	<updated>2024-02-14T13:08:09Z</updated>
+	<author>
+		<name>Sarvesh Sundaram</name>
+		<email>sundas9@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>Oscar Nominees Luncheon 2024: Best Looks and the ‘Anatomy of a Fall’ Dog</title>
+		<link href="https://www.nytimes.com/2024/02/12/movies/oscar-nominees-luncheon-red-carpet.html" />
+		<id>https://www.nytimes.com/2024/02/12/movies/oscar-nominees-luncheon-red-carpet.html/string1</id>
+		<updated>2024-02-13T18:56:24Z</updated>
+		<summary>In a ballroom full of A-listers in Beverly Hills, the Border collie from “Anatomy of a Fall” had the stars lining up to meet him.</summary>
+	</entry>
+
+	<entry>
+		<title>Assistant Secretary for International Narcotics and Law Enforcement Affairs Robinson Travels to Peru and Ecuador</title>
+		<link href="https://www.state.gov/assistant-secretary-for-international-narcotics-and-law-enforcement-affairs-robinson-travels-to-peru-and-ecuador/" />
+		<id>https://www.state.gov/assistant-secretary-for-international-narcotics-and-law-enforcement-affairs-robinson-travels-to-peru-and-ecuador//string2</id>
+		<updated>2024-02-05T19:59:29Z</updated>
+		<summary>Office of the Spokesperson</summary>
+	</entry>
+
+	<entry>
+		<title>Danielle Pinnock gives inside scoop on new season of “Ghosts”</title>
+		<link href="https://www.cbsnews.com/video/danielle-pinnock-gives-inside-scoop-on-new-season-of-ghosts/" />
+		<id>https://www.cbsnews.com/video/danielle-pinnock-gives-inside-scoop-on-new-season-of-ghosts/string3</id>
+		<updated>2024-02-15T10:42:30Z</updated>
+		<summary>Tonight on CBS, the eagerly awaited third season of "Ghosts" debuts, featuring Danielle Pinnock as the ghost of 1920s jazz singer Alberta Haynes. She joins “CBS Mornings” for a sneak peek into what this new season holds.</summary>
+	</entry>
+
+	<entry>
+		<title>Fani Willis Faces the Judge</title>
+		<link href="https://www.wsj.com/articles/fani-willis-nathan-wade-mike-roman-fulton-county-georgia-donald-trump-prosecution-2a3d6cb7" />
+		<id>https://www.wsj.com/articles/fani-willis-nathan-wade-mike-roman-fulton-county-georgia-donald-trump-prosecution-2a3d6cb7/string4</id>
+		<updated>2024-02-14T18:47:00Z</updated>
+		<summary>The Georgia Trump prosecutor could be dismissed from the case</summary>
+	</entry>
+
+	<entry>
+		<title>Guterres appoints independent UNRWA review panel</title>
+		<link href="https://news.un.org/feed/view/en/story/2024/02/1146207" />
+		<id>https://news.un.org/feed/view/en/story/2024/02/1146207/string5</id>
+		<updated>2024-02-05T12:00:00Z</updated>
+		<summary>UN Secretary-General António Guterres on Monday appointed an independent panel to conduct an assessment of the UN agency that assists Palestine refugees, UNRWA, following accusations that several staff were involved in the 7 October attacks against Israel.</summary>
+	</entry>
+ 
+</feed>
