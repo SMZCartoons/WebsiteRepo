@@ -3,5 +3,5 @@ CREATE TABLE `actors` (
    `firstname` varchar(100) NOT NULL,
    `latename` varchar(100) NOT NULL,
    `year` DATE DEFAULT NULL,
-   PRIMARY KEY (`movieid`)
+   PRIMARY KEY (`actorid`)
 );
