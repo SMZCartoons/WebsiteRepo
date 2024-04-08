@@ -16,3 +16,11 @@ VALUES (1, "Elizabeth", "1998"),
       "2001"
    ),
    (5, "Up in the Air", "2009");
+
+CREATE TABLE `actors` (
+   `actorid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+   `firstname` varchar(100) NOT NULL,
+   `latename` varchar(100) NOT NULL,
+   `year` DATE DEFAULT NULL,
+   PRIMARY KEY (`movieid`)
+);
