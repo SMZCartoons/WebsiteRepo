@@ -97,7 +97,7 @@ if ($havePost) {
 }
 ?>
 
-<h3>Add Actor</h3>
+<h3>Add Movie</h3>
 <form id="addForm" name="addForm" action="index.php" method="post" onsubmit="return validate(this);">
    <fieldset>
       <div class="formData">
@@ -118,7 +118,7 @@ if ($havePost) {
    </fieldset>
 </form>
 
-<h3>Actors</h3>
+<h3>Movies</h3>
 <table id="actorTable">
    <?php
    if ($dbOk) {
