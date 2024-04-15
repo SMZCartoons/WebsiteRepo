@@ -151,7 +151,7 @@ if ($havePost) {
       $numRecords1 = $result1->num_rows;
       echo strval($numRecords1);
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>'; //
-      for ($i = 0; $i < $numRecords; $i++) {
+      for ($i = 0; $i < 2/*$numRecords*/; $i++) {
          $record = $result->fetch_assoc();
          $record1 = $result1->fetch_assoc();
          if ($i % 2 == 0) {
