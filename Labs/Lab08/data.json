@@ -35,20 +35,14 @@
          "source": "../../Resources/Lab9Image.png", 
          "alt": "Me",
          "class": "lab6"
-      }
-   ],
-
-   "TBA": [
+      },
       {
-         "source": "../../Resources/ComingSoon.png",
+         "href": "../Lab10/inclassexample/index.php",
+         "source": "../../Resources/lab10icon.png",
          "alt": "Me",
-         "class": "tba3"
-      }, 
-      {
-         "source": "../../Resources/ComingSoon.png",
-         "alt": "Me",
-         "class": "tba4"
+         "class": "lab6"
       }
    ]
+
    
 }
