@@ -70,8 +70,8 @@ if ($havePost) {
          // Let's trim the input for inserting into mysql
          // Note that aside from trimming, we'll do no further escaping because we
          // use prepared statements to put these values in the database.
-         $firstNamesForDb = trim($_POST["title"]);
-         $dobForDb = trim($_POST["release"]);
+         $firstNamesForDb = trim($_POST["firstNames"]);
+         $dobForDb = trim($_POST["dob"]);
 
          // Setup a prepared statement. Alternately, we could write an insert statement - but
          // *only* if we escape our data using addslashes() or (better) mysqli_real_escape_string().
