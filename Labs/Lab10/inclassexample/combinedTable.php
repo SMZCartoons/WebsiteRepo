@@ -150,13 +150,8 @@ if ($havePost) {
       // echo strval($result1->fetch_assoc()['title']);
       $numRecords1 = $result1->num_rows;
       
-      $record1 = $result1->fetch_assoc();
-      
-      $record1 = $result1->fetch_assoc();
-      echo strval($record1['title']);
-      echo strval($numRecords1);
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>'; //
-      for ($i = 0; $i < 1/*$numRecords*/; $i++) {
+      for ($i = 0; $i < 5/*$numRecords*/; $i++) {
          $record = $result->fetch_assoc();
          $record1 = $result1->fetch_assoc();
          if ($i % 2 == 0) {
@@ -169,8 +164,8 @@ if ($havePost) {
          echo '</td><td>';
          echo htmlspecialchars($record['dob']);
          echo '</td><td>';
-         // echo htmlspecialchars($record1['title'])
-         // echo '</td><td>'; 
+         echo strval($record1['title'])
+         echo '</td><td>'; 
          // echo htmlspecialchars($record1['year'])
          // echo '</td><td>';
          echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
