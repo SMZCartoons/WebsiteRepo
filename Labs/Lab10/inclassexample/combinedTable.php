@@ -152,7 +152,7 @@ if ($havePost) {
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>';
       for ($i = 0; $i < $numRecords; $i++) {
          $record = $result->fetch_assoc();
-         $record1 = $result->fetch_assoc();
+         $record1 = $result1->fetch_assoc();
          if ($i % 2 == 0) {
             echo "\n" . '<tr id="actor-' . $record['actorid'] . '"><td>';
          } else {
@@ -164,7 +164,7 @@ if ($havePost) {
          echo htmlspecialchars($record['dob']);
          echo '</td><td>';
          echo htmlspecialchars($record1['title'])
-         echo '</td><td>';
+         echo '</td><td>'; 
          echo htmlspecialchars($record1['year'])
          echo '</td><td>';
          echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
