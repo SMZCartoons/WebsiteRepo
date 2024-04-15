@@ -42,8 +42,8 @@ if ($havePost) {
    // Get the output and clean it for output on-screen.
    // First, let's get the output one param at a time.
    // Could also output escape with htmlentities()
-   $firstNames = htmlspecialchars(trim($_POST["title"]));
-   $dob = htmlspecialchars(trim($_POST["release"]));
+   $firstNames = htmlspecialchars(trim($_POST["firstNames"]));
+   $dob = htmlspecialchars(trim($_POST["dob"]));
 
    $focusId = ''; // trap the first field that needs updating, better would be to save errors in an array
 
@@ -53,10 +53,6 @@ if ($havePost) {
    }
    if ($dob == '') {
       $errors .= '<li>Date of birth may not be blank</li>';
-      if ($focusId == '') $focusId = '#dob';
-   }
-   if (!$dobOk) {
-      $errors .= '<li>Enter a valid date in yyyy-mm-dd format</li>';
       if ($focusId == '') $focusId = '#dob';
    }
 
