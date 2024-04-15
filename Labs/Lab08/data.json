@@ -29,30 +29,20 @@
          "source": "../../Resources/new.png",
          "alt": "Me",
          "class": "lab6"
-      }      
-   ],
-
-   "TBA": [
+      },
       {
-         "source": "../../Resources/ComingSoon.png",
+         "href": "../Lab09/Lab09.html",
+         "source": "../../Resources/Lab9Image.png", 
          "alt": "Me",
-         "class": "tba1"
-      }, 
+         "class": "lab6"
+      },
       {
-         "source": "../../Resources/ComingSoon.png",
+         "href": "../Lab10/inclassexample/index.php",
+         "source": "../../Resources/lab10icon.png",
          "alt": "Me",
-         "class": "tba2"
-      }, 
-      {
-         "source": "../../Resources/ComingSoon.png",
-         "alt": "Me",
-         "class": "tba3"
-      }, 
-      {
-         "source": "../../Resources/ComingSoon.png",
-         "alt": "Me",
-         "class": "tba4"
+         "class": "lab6"
       }
    ]
+
    
 }

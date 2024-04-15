@@ -149,6 +149,8 @@ if ($havePost) {
       $result1 = $db->query($query1);
       // echo strval($result1->fetch_assoc()['title']);
       $numRecords1 = $result1->num_rows;
+
+      $numRecords = min($numRecords, $numRecords1);
       
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>';
       for ($i = 0; $i < $numRecords; $i++) {
