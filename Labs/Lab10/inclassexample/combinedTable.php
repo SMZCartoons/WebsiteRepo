@@ -149,6 +149,11 @@ if ($havePost) {
       $result1 = $db->query($query1);
       // echo strval($result1->fetch_assoc()['title']);
       $numRecords1 = $result1->num_rows;
+      
+      $record1 = $result1->fetch_assoc();
+      
+      $record1 = $result1->fetch_assoc();
+      echo record1['title'];
       echo strval($numRecords1);
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>'; //
       for ($i = 0; $i < 1/*$numRecords*/; $i++) {
@@ -162,9 +167,9 @@ if ($havePost) {
          echo htmlspecialchars($record['last_name']) . ', ';
          echo htmlspecialchars($record['first_names']);
          echo '</td><td>';
-         echo strval($record['dob']);
+         echo htmlspecialchars($record['dob']);
          echo '</td><td>';
-         echo strval($record1['title'])
+         echo htmlspecialchars($record1['title'])
          echo '</td><td>'; 
          // echo htmlspecialchars($record1['year'])
          // echo '</td><td>';
