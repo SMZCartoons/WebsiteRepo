@@ -141,13 +141,18 @@ if ($havePost) {
    <?php
    if ($dbOk) {
 
-      $query = 'select * from actors order by last_name';
+      $query = 'select * from actors';
       $result = $db->query($query);
       $numRecords = $result->num_rows;
 
-      echo '<tr><th>Name:</th><th>Date of Birth:</th><th></th></tr>';
+      $query1 = 'select * from movies';
+      $result1 = $db->query($query1);
+      $numRecords = $result1->num_rows;
+
+      echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>';
       for ($i = 0; $i < $numRecords; $i++) {
          $record = $result->fetch_assoc();
+         $record1 = $result->fetch_assoc();
          if ($i % 2 == 0) {
             echo "\n" . '<tr id="actor-' . $record['actorid'] . '"><td>';
          } else {
@@ -157,6 +162,10 @@ if ($havePost) {
          echo htmlspecialchars($record['first_names']);
          echo '</td><td>';
          echo htmlspecialchars($record['dob']);
+         echo '</td><td>';
+         echo htmlspecialchars($record['title'])
+         echo '</td><td>';
+         echo htmlspecialchars($record['year'])
          echo '</td><td>';
          echo '<img src="resources/delete.png" class="deleteActor" width="16" height="16" alt="delete actor"/>';
          echo '</td></tr>';
