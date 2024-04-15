@@ -149,7 +149,7 @@ if ($havePost) {
       $result1 = $db->query($query1);
       $numRecords = $result1->num_rows;
 
-      echo '<tr><th>Name:</th><th>Date of Birth:</th></tr>'; //<th>Movie Name:</th><th>Movie Release Date:</th>
+      echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>'; //
       for ($i = 0; $i < $numRecords; $i++) {
          $record = $result->fetch_assoc();
          $record1 = $result1->fetch_assoc();
