@@ -147,7 +147,7 @@ if ($havePost) {
 
       $query1 = 'select * from movies';
       $result1 = $db->query($query1);
-      echo $result1;
+      echo $result1->fetch_assoc();
       $numRecords = $result1->num_rows;
 
       echo '<tr><th>Name:</th><th>Date of Birth:</th><th>Movie Name:</th><th>Movie Release Date:</th></tr>'; //
