@@ -49,15 +49,15 @@ if ($havePost) {
 
    if ($firstNames == '') {
       $errors .= '<li>First name may not be blank</li>';
-      if ($focusId == '') $focusId = '#firstNames';
+      if ($focusId == '') $focusId = '#title';
    }
    if ($dob == '') {
       $errors .= '<li>Date of birth may not be blank</li>';
-      if ($focusId == '') $focusId = '#dob';
+      if ($focusId == '') $focusId = '#relDate';
    }
    if (!$dobOk) {
       $errors .= '<li>Enter a valid date in yyyy-mm-dd format</li>';
-      if ($focusId == '') $focusId = '#dob';
+      if ($focusId == '') $focusId = '#relDate';
    }
 
    if ($errors != '') {
@@ -105,13 +105,13 @@ if ($havePost) {
          <label class="field" for="firstNames">Movie Title:</label>
          <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
                                                                      echo $firstNames;
-                                                                  } ?>" name="firstNames" id="firstNames" /></div>
+                                                                  } ?>" name="title" id="title" /></div>
 
         
          <label class="field" for="dob">Date of Release:</label>
          <div class="value"><input type="text" size="10" maxlength="10" value="<?php if ($havePost && $errors != '') {
                                                                                     echo $dob;
-                                                                                 } ?>" name="dob" id="dob" /> <em>yyyy-mm-dd</em></div>
+                                                                                 } ?>" name="relDate" id="relDate" /> <em>yyyy-mm-dd</em></div>
 
          <input type="submit" value="save" id="save" name="save" />
       </div>
