@@ -43,17 +43,21 @@ if ($havePost) {
    // First, let's get the output one param at a time.
    // Could also output escape with htmlentities()
    $firstNames = htmlspecialchars(trim($_POST["title"]));
-   $dob = htmlspecialchars(trim($_POST["relDate"]));
+   $dob = htmlspecialchars(trim($_POST["release"]));
 
    $focusId = ''; // trap the first field that needs updating, better would be to save errors in an array
 
    if ($firstNames == '') {
       $errors .= '<li>First name may not be blank</li>';
-      if ($focusId == '') $focusId = '#title';
+      if ($focusId == '') $focusId = '#firstNames';
    }
    if ($dob == '') {
       $errors .= '<li>Date of birth may not be blank</li>';
-      if ($focusId == '') $focusId = '#relDate';
+      if ($focusId == '') $focusId = '#dob';
+   }
+   if (!$dobOk) {
+      $errors .= '<li>Enter a valid date in yyyy-mm-dd format</li>';
+      if ($focusId == '') $focusId = '#dob';
    }
 
    if ($errors != '') {
@@ -83,7 +87,7 @@ if ($havePost) {
          $statement->execute();
 
          // give the user some feedback
-         echo '<div class="messages"><h4>Success: ' . $statement->affected_rows . ' actor added to database.</h4>';
+         echo '<div class="messages"><h4>Success: ' . $statement->affected_rows . ' movie added to database.</h4>';
          echo $firstNames . ', released in ' . $dob . '</div>';
 
          // close the prepared statement obj
@@ -101,13 +105,13 @@ if ($havePost) {
          <label class="field" for="firstNames">Movie Title:</label>
          <div class="value"><input type="text" size="60" value="<?php if ($havePost && $errors != '') {
                                                                      echo $firstNames;
-                                                                  } ?>" name="title" id="title" /></div>
+                                                                  } ?>" name="firstNames" id="firstNames" /></div>
 
         
          <label class="field" for="dob">Date of Release:</label>
          <div class="value"><input type="text" size="10" maxlength="10" value="<?php if ($havePost && $errors != '') {
                                                                                     echo $dob;
-                                                                                 } ?>" name="relDate" id="relDate" /> <em>yyyy-mm-dd</em></div>
+                                                                                 } ?>" name="dob" id="dob" /> <em>yyyy-mm-dd</em></div>
 
          <input type="submit" value="save" id="save" name="save" />
       </div>
