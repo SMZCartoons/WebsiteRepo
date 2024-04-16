@@ -28,7 +28,7 @@ $(document).ready(function() {
   $("#firstNames").focus();
      
   $(".deleteActor").click(function() {
-    if(confirm("Remove actor? (This action cannot be undone.)")) {
+    if(confirm("Remove Movie? (This action cannot be undone.)")) {
       
       // get the id of the clicked element's row
       var curId = $(this).closest("tr").attr("id");
@@ -42,7 +42,7 @@ $(document).ready(function() {
       
       $.ajax({
         type: "post",
-        url: "actor-delete.php",
+        url: "movies-delete.php",
         dataType: "json",
         data: postData,
         success: function(responseData, status){
@@ -59,7 +59,7 @@ $(document).ready(function() {
             $(".messages").hide();
             
             // populate the js message box and show it:
-            $("#jsMessages").html("<h4>Actor deleted</h4>").show();
+            $("#jsMessages").html("<h4>Movie deleted</h4>").show();
             
             // re-zebra the table
             $("#actorTable tr").each(function(i){
