@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- References Style Sheets and declares title of the page -->
+    <head> <meta charset="UTF-8">
+        <title>Home - Sarvesh Sundaram</title>
+        <link rel="stylesheet" href="../Resources/indexStyles.css">
+    </head>
+
+    <!-- Creates the menu bar with Home and Projects tabs -->
+    <body id="body1">
+        
+        <div class="Logo">
+            <img src="../Resources/Text.png" alt="Girl in a jacket" id="logoImage">
+            <a href="../Resume.pdf">Resume </a>
+            <a href="../index.html">Home</a>
+        </div>
+        
+        <h1 id="blurbTitle">
+            Computer Vision Analysis Tool
+            <div id="blurbish1">
+                Undergraduate Researcher
+            </div>
+
+        </h1>
+
+        <p id="blurb3">
+            The project is a video analysis pipeline, that when given a video of someone performing practice surgery, determines if it is successful or not. <br><br>
+
+            I collaborated with a post-doc researcher to develop this ML pipeline. Specifically, I worked on developing the portion of the pipeline that cleans the input video by using OpenCV and NumPy to create a vignetting filter on each frame, with the center of the effect being where the surgeon is looking. This eliminates extraneous details in the video. <br><br> 
+
+            I also worked on the final classifier that, when given a feature vector extracted from the input video, returns a whether the procedure was successful or not. The model used for this was a 1D CNN made with the PyTorch Neural Network Package, and resulted in around 88% Accuracy. 
+        </p>
+
+        <br><br>
+
+        <div id="blurbish12">
+            Technology Used
+        </div>
+
+        <div class="flex-container3">
+            <div>
+                PyTorch
+            </div>
+
+            <div>
+                OpenCV
+            </div>
+
+            <div>
+                Numpy
+            </div>
+        </div>
+
+        
+
+
+        <br><br><br><br>
+
+        <!-- Creates main content in the page -->
+        
+
+    </body>
+
+
+</html>

@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Assistant:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* Background layout for the home page */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,510;1,510&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 #body1{
+
     margin: 0;
-    font-family: Gara;
     overflow: auto;
     display: flex;
     flex-direction: column;
     height: 100%;
-    background: linear-gradient(20deg, #ffffff 0%, #c2dcb4 67%, #A9D2B4 0%);
+    background: linear-gradient(20deg, #ffffff 0%, #D0F1BF 67%, #B6D7B9 30%);
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -357,12 +358,89 @@ footer{
 #blurbTitle{
     font-size:80px;
     font-family: 'Archivo Black';
+    margin-top:150px;
+}
+
+#blurbTitle2{
+    font-size:80px;
+    font-family: 'Archivo Black';
+    margin-top:150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#blurbish{
+    font-size:20px;
+    font-family: 'Archivo Black';
+}
+
+#blurbish1{
+    font-size: 40px;
+    font-family: 'Assistant';
+    text-align: center;
+    font-weight: bold;
+}
+
+#blurbish12{
+    font-size: 34px;
+    font-family: 'Assistant';
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#blurbish2{
+    font-size:20px;
+    font-family: 'Assistant';
+}
+
+.cigna2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    width: 500px;
+}
+.cigna22 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    width: 700px;
+}
+
+.cigna3 {
+    display: block;
+    width: 200px;
+}
+.cigna4 {
+    display: block;
+    width: 400px;
+}
+
+#blurbTitle1{
+    font-size:80px;
+    font-family: 'Archivo Black';
 }
 
 /* main blurb in main page style */
 #blurb{
     margin: 0px 100px 0px 100px;
     float: right;
+    font-size: 21px;
+}
+
+#blurb3{
+    margin: 0px 300px 0px 300px;
+    float: right;
+    font-size: 21px;
+}
+
+#blurb2{
+    margin: 0px 100px 0px 100px;
+    text-align: center;
     font-size: 21px;
 }
 
@@ -410,4 +488,121 @@ footer{
 
 .entry:hover{
     transform:scale(1.1);
+}
+
+
+.flex-container {
+    display: flex;
+
+    justify-content: center;
+}
+
+.flex-container1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 300px 0px 300px;
+    gap: 30px;
+    font-family: "Poppins";
+}
+
+.flex-container4 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 400px 0px 400px;
+    gap: 30px;
+    font-family: "Poppins";
+}
+  
+.flex-container > div {
+    padding: 0px 30px 0px 0px;
+    /* font-size: 30px; */
+    
+}
+
+.flex-container3 > div {
+    padding: 10px;
+    background-color: #cfdbc3;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#Linkedin {
+    height: 50px;
+    width: 50px;
+    transition: transform .2s; 
+}
+#Linkedin:hover {
+    transform:scale(1.1);
+}
+
+.boxOther{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.boxOther1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.ProjectImage {
+    float: left;
+    margin: 0px 600px 0px 0px;
+    width: 325px;
+    height: 250px;
+}
+
+.otherProject {
+    float: right;
+}
+
+.compLogo {
+    width: 100px;
+    height: 100px
+}
+
+.CompFont {
+    font-family: "Prompt";
+    font-size: 36px;
+    font-weight: 900;
+}
+.TitleFont {
+    font-family: "Prompt";
+    font-size: 23px;
+}
+
+.TitleFont2 {
+    font-family: "Prompt";
+    font-size: 16px;
+}
+
+.YearFont {
+    
+    font-family: "Prompt";
+    font-size: 18px;
+    font-style: italic;
+}
+
+.compimg {
+    width: 225px;
+    height: 225px;
 }
