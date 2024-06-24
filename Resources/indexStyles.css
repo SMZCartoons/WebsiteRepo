@@ -497,6 +497,12 @@ footer{
     justify-content: center;
 }
 
+.flex-container55 {
+    display: flex;
+
+    justify-content: center;
+}
+
 .flex-container1 {
     display: flex;
     gap: 20px;
@@ -531,6 +537,8 @@ footer{
     
 }
 
+
+
 .flex-container3 > div {
     padding: 10px;
     background-color: #cfdbc3;
@@ -562,6 +570,12 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 100px;
+}
+
+.boxOther2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ProjectImage {
@@ -606,3 +620,4 @@ footer{
     width: 225px;
     height: 225px;
 }
+
