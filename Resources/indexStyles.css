@@ -112,6 +112,10 @@ p{
     font-family: 'Assistant';
 }
 
+ul{
+    font-family: 'Assistant';
+}
+
 /* enables change in color when mouse hovers over menu buttons */
 .Logo a:hover {
     background-color: #476246;
@@ -437,6 +441,20 @@ footer{
     float: right;
     font-size: 21px;
 }
+.titleblurb{
+    font-size: 25px;
+    margin: 0px 300px 0px 300px;
+    float: right;
+}
+.lists {
+    margin: 0px 300px 10px 300px;
+    float: right;
+    font-size: 21px;
+}
+
+.lists li {
+    margin-bottom: 10px;
+}
 
 #blurb2{
     margin: 0px 100px 0px 100px;
@@ -489,6 +507,9 @@ footer{
 .entry:hover{
     transform:scale(1.1);
 }
+
+
+
 
 
 .flex-container {
@@ -619,5 +640,11 @@ footer{
 .compimg {
     width: 225px;
     height: 225px;
+    
+    transition: transform .2s;
+}
+
+.compimg:hover {
+    transform:scale(1.1);
 }
 

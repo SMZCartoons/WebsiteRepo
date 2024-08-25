@@ -28,9 +28,14 @@
         <p id="blurb3">
             The project is a video analysis pipeline, that when given a video of someone performing practice surgery, determines if it is successful or not. <br><br>
 
-            I collaborated with a post-doc researcher to develop this ML pipeline. Specifically, I worked on developing the portion of the pipeline that cleans the input video by using OpenCV and NumPy to create a vignetting filter on each frame, with the center of the effect being where the surgeon is looking. This eliminates extraneous details in the video. <br><br> 
-
-            I also worked on the final classifier that, when given a feature vector extracted from the input video, returns a whether the procedure was successful or not. The model used for this was a 1D CNN made with the PyTorch Neural Network Package, and resulted in around 88% Accuracy. 
+            I collaborated with a post-doc researcher to develop this ML pipeline. It is split into two parts: data cleaning and the neural network
+            
+            The data cleaning program was built using OpenCV and Numpy so that when given a single video containing a series of trials, it splits the video into multiple clips, with each clip holding a single trial. After this, it applies a vignette filter on each frame, with the center of the filter being where the surgeon is looking. The resulting video is then condensed to a feature matrix, where each row of data represents data on each frame.
+            <br><br>
+            The neural network was a 1D convolutional neural network, created using PyTorch. The model has 2 hidden layers, which was determined by testing the performance of the model based on the number of layers. The result outputted by the model is a 2-element vector, where the first element represents the weight that the video wasn’t successful, and the second is the weight that the video was successful. The element with the greatest weight is the predicted outcome.
+            <br><br>
+            The results were an 88% test accuracy rate and an average test loss of 0.41. The model and pipeline are expected to be used in a research project and a potential paper as part of joint study between RPI and University of Buffalo.
+            <br><br>
         </p>
 
         <br><br>
@@ -50,6 +55,10 @@
 
             <div>
                 Numpy
+            </div>
+
+            <div>
+                AI/ML
             </div>
         </div>
 
